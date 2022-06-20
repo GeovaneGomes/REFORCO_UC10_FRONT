@@ -1,0 +1,49 @@
+{
+    "noticias" : [
+        {
+            "id": 1,
+            "imagem" : "",
+            "titulo" : "Teste",
+            "descrição" : "Testando"
+        },
+
+        {
+            "id": 2,
+            "imagem" : "",
+            "titulo" : "Teste Angular",
+            "descrição" : "Testando o json de novo"
+        },
+
+        {
+            "id": 3,
+            "imagem" : "",
+            "titulo" : "Teste javaScript",
+            "descrição" : "Testando o json e JS"
+        },
+
+        {
+            "id": 4,
+            "imagem" : "",
+            "titulo" : "Teste node",
+            "descrição" : "Testando o json e node"
+        },
+
+        {
+            "id": 5,
+            "imagem" : "",
+            "titulo" : "Teste java",
+            "descrição" : "Testando o json e java"
+        },
+
+        {
+            "id": 7,
+            "imagem" : "",
+            "titulo" : "Teste tetanso",
+            "descrição" : "Testando o json"
+        }
+
+
+
+
+    ]
+}
