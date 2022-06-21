@@ -1,11 +1,7 @@
-
-<form #userForm="ngForm" (ngSubmit)="onSubmit()">
-    <label for="email">Email: </label>
-    <input type="email" id="email" name="email" [(ngModel)] = "userModel.email">
-
-    <label for="senha"> Senha: </label>
-    <input type="password" id="senha" name="senha" [(ngModel)] = "userModel.senha">
-    <button type="submit">Enviar</button>
-</form>
-
-<a routerLink="contato">Contato</a>
+<div id="espaco-noticias" class="content-news">
+    <div *ngFor="let noticia of listaNoticias" class="cardnews">
+        <img [src]=noticia.imagem alt="Foto da jogadora profissional">
+        <h3>{{ noticia.titulo }}</h3>
+        <p>{{ noticia.descricao }}</p>
+    </div>
+</div>
